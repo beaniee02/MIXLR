@@ -1,0 +1,144 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li:hover{
+    color: rgb(237,28,36);
+}
+#anchor{
+    color: rgb(237,28,36);
+    border: 1px solid whitesmoke;
+}
+#anchor:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(237,28,36);
+}
+#button{
+    background-color: rgb(237,28,36);
+    color: rgb(255, 255, 255);
+}
+#Hero{
+    padding: 50px 0px 50px 0px;
+}
+#Hero h1{
+    font-size: 48px;
+}
+#wifi{
+    font-weight: bolder;
+}
+#wifi:focus{
+    fill: white;
+    background-color: black;
+    color: white;
+}
+.section{
+    padding-top: 20px;
+}
+.section2{
+    padding-bottom: 0px;
+}
+#box h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+cite{
+    font-size: 15px;
+}
+blockquote{
+    font-size: 22px;
+}
+#figure{
+    background-color: rgb(241,245,249);
+}
+#pad{
+    padding-bottom: 70px;
+}
+#text h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-right: 100px;
+}
+#text p{
+    font-size: 20px;
+}
+.section3{
+    padding: 0px 200px 100px 190px;
+}
+#text, #text2{
+    padding: 0px 40px 0px 0px;
+}
+#text1{
+    padding: 0px 0px 0px 100px;
+}
+#text1 h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+#text1 p, #text2 p{
+    font-size: 20px;
+}
+#text2 h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-right: 70px;
+}
+.section3 a{
+    color: rgb(240,28,36);
+    font-size: 18px;
+}
+.section3 .h2{
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#footer a{
+    color: black;
+}
+#footer a:hover{
+    color: rgb(237,28,36);
+}
+.section2 p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #nav{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+    }
+    #aside{
+        display: none;
+    }
+    #aside1{
+        display: block;
+    }
+    ul{
+        display: flex;
+        gap: 0.9em;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    #Hero h1{
+        font-size: 45px;
+    }
+    .section{
+        padding-top: 40px;
+    }
+    #fig{
+        padding-bottom: 70px;
+    }
+    #fig img{
+        width: 400px !important;
+    }
+    #box p{
+        padding-top: 20px;
+        font-weight: 500;
+    }
+    .section2 p{
+        font-size: 23px;
+    }
+    #plat{
+        display: flex;
+        gap: 1px;
+    }
+}
